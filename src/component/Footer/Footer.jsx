@@ -5,7 +5,7 @@ const Footer = () => {
     <div style={{ textAlign: "center", fontSize: "2rem" }}>
       Made with 💖 by{" "}
       <a
-        href="https://github.com/whyMalem"
+        href="https://github.com/whyMalem/cred-clone"
         target="_blank"
         rel="noreferrer"
         style={{ cursor: "pointer" }}
