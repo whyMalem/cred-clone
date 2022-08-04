@@ -12,9 +12,7 @@ const Header = () => {
     "https://web-images.credcdn.in/_next/assets/images/home-page/cred-logo.png";
   return (
     <div className="max-width header absolute-center">
-      <div className="brand-logo">
-        <img src={logo} alt="logo" className="logo-image" />
-      </div>
+      <img src={logo} alt="logo" className="logo-image" />
 
       <div className="non-mobile-view header-navLinks absolute-center ">
         <h4 className="header-navLink">credit score check</h4>
