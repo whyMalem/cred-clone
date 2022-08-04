@@ -81,15 +81,19 @@
   }
 }
 
-@media all and (max-width: 767px) {
-  .mobile-mockup {
+@media all and (max-width: 768px) {
+  /* .mobile-mockup {
     transform: translateX(30%);
-  }
+  } */
   .screen-heading {
     font-size: 4.5rem;
     line-height: 4.5rem;
   }
   .scroll-full-screen-wrapper {
     width: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
   }
 }
